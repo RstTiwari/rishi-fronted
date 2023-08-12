@@ -11,10 +11,9 @@ const BarCodeScanner = ()=>{
   const handleChange = (event) => {
     setImagePath(URL.createObjectURL(event.target.files[0]));
   }
-
     return(
         <>
-               <BarcodeScannerComponent
+        <BarcodeScannerComponent
         width={320}
         height={240}
         torch={false}
