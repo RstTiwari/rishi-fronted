@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createWorker  } from "tesseract.js"
+// import { createWorker  } from "tesseract.js"
 
 const TesseReact=async({image})=>{
     // alert(image)
